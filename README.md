@@ -1,5 +1,5 @@
 # Interlaced Translations
-a simple webpage that splits text into sentences for manual translation
+a simple webpage that splits paragraphs of text into sentences for manual translation
 
 ## Who is it for?
 I designed this for myself and other language learners who are practicing their written translation skills.
