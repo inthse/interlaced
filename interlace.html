@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Interlaced Translations</title>
+    <script type="text/javascript" src="interlace.js"></script>
+    <link href="interlace.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <label for="original-text">Original:</label>
+    <textarea id="original-text" onBlur="interlaceCheck()">[Paste original (plaintext) here, then click anywhere else.]</textarea>
+    <label for="translated-text">Translation:</label>
+    <textarea id="translated-text">[Translation will appear here as you finish each sentence.]</textarea>
+    <hr>
+    <div id="wrapper">
+      <!-- javascript will fill in this area with source text and fields for translation -->
+    </div>
+  </body>
+</html>

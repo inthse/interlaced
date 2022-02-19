@@ -1,0 +1,36 @@
+html, body, div, p {
+  margin : 0px;
+}
+
+div.paragraph {
+  margin : 10px;
+  padding : 5px;
+  border-radius : 5px;
+  background : #EEEEEE;
+  margin-bottom : 10px;
+}
+
+textarea {
+  min-height : 32px;
+  min-width : 256px;
+}
+
+p.original-sentence {
+  cursor : default;
+}
+
+p.translated-sentence {
+  font-style : italic;
+  min-width : 24px;
+  cursor : text;
+}
+
+p.translated-sentence:hover {
+  outline: none;
+  box-shadow: 0 0 5px #CCCCCC;
+}
+
+p.translated-sentence:focus {
+  outline: none;
+  box-shadow: 0 0 10px #CCCCCC;
+}
