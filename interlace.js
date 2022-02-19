@@ -113,8 +113,7 @@ function updateTranslation(received) {
       translatedOutput.push(thisPara.join(" "));
     }
   }
-
-  debug(translatedOutput);
+  
   translatedOutput = translatedOutput.join("\n\n");
 
   //Update webpage to show entire translation
